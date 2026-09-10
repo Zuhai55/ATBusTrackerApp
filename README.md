@@ -4,7 +4,8 @@ A Java Swing desktop application simulating a real-time bus tracking system for 
 
 ## Screenshots
 
-> Add a screenshot of the running GUI here
+<img width="981" height="586" alt="atproject" src="https://github.com/user-attachments/assets/142327b3-ebb5-4d97-a9dd-1a6f75f9f1aa" />
+
 
 ## Features
 
@@ -59,12 +60,33 @@ src/bustracker/
 
 ## How to Run
 
-1. Clone the repository
+**Prerequisites:** Java 11 or higher installed on your machine.
+
+### Option 1 — Terminal
 ```bash
+# Clone the repo
 git clone https://github.com/Zuhai55/AT-BusTracker.git
+cd AT-BusTracker
+
+# Compile
+javac -d out src/bustracker/*.java
+
+# Run
+java -cp out bustracker.MainFrame
 ```
-2. Open the project in IntelliJ IDEA
-3. Run `MainFrame.java` — the GUI will launch automatically with demo data
+
+### Option 2 — IntelliJ IDEA
+1. Open IntelliJ → **File → Open** → select the project folder
+2. Right click `MainFrame.java` → **Run 'MainFrame.main()'**
+
+### Option 3 — Eclipse
+1. Open Eclipse → **File → Import → Existing Projects into Workspace** → select the project folder
+2. Right click `MainFrame.java` → **Run As → Java Application**
+
+### Option 4 — VS Code
+1. Install the [Extension Pack for Java](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack)
+2. Open the project folder in VS Code
+3. Open `MainFrame.java` and click **Run** above the `main` method
 
 ## Author
 
