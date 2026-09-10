@@ -1,6 +1,6 @@
 # Auckland Transport Bus Tracking System
 
-A Java Swing desktop application simulating a real-time bus tracking system for Auckland Transport. Built as part of a software engineering assignment at the University of Auckland.
+A Java Swing desktop application simulating a real-time bus tracking system for Auckland Transport. Built as part of an Object Oriented Software Development assignment at the University of Auckland.
 
 ## Screenshots
 
